@@ -26,7 +26,6 @@ export const sendResponse = (input: {} | [] | string) => {
         result: input
     }
 }
-
 export const stringToObjectID = (_id: ObjectId) => new ObjectId(_id);
 
 export const verifyGmail = (gmail:string) => /^[a-z]([a-z0-9]+)(\.?[a-z0-9]+)@gmail.com$/g.test(gmail);
